@@ -4,7 +4,7 @@ import {addToCart} from '../Services/Actions/actions'
 
 const mapStateToProps=state=>({
 
-    data:state
+    data:state.cardItems
 
 })
 const mapDispatchToProps=dispatch=>({
