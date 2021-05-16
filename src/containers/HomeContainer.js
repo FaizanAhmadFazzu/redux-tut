@@ -1,8 +1,10 @@
 import Home from '../components/Home'
 import {connect} from 'react-redux'
-import {addToCart} from '../service/actions/actions'
+import {addToCart} from '../Services/Actions/actions'
 
 const mapStateToProps=state=>({
+
+    data:state
 
 })
 const mapDispatchToProps=dispatch=>({
