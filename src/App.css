@@ -12,6 +12,14 @@
     color: #fff;
     box-shadow: #333 0px 1px 5px;
   }
+
+.btn-wrapper .remove-btn {
+  background-color: purple;
+  margin-top: 5px;
+}
+
+
+  
   .img-wrapper img {
     width: 70px;
     margin-top: -10px;;
